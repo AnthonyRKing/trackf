@@ -7,4 +7,4 @@ Usage: `trackf <text-file>`
 
 Use CTRL-C/CTRL-Z to interrupt.
 
-![Example output](ftrack.png)
+![Example output](trackf.png)
