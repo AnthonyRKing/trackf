@@ -2,6 +2,8 @@
 
 # Utility to monitor changes to text files
 # (c) A.R.King 2024
+#
+# Usage: trackf <text-file>
 
 # Function to compare file contents, display changes with timestamps and colorization
 function compare_file() {
@@ -52,7 +54,7 @@ function compare_file() {
 #
 
 # Program info
-PROGNAME='trackfile'
+PROGNAME='trackf'
 
 # Bash colours
 YELLOW='\033[0;33m'
