@@ -1,0 +1,11 @@
+Package: trackf
+Version: 1.0-1
+Section: utils
+Priority: optional
+Architecture: all
+Maintainer: Anthony R. King <tkonan3@aol.co.uk>
+Depends: bash, diff, tput
+#Source: trackf.orig.tar.gz
+#Binary: trackf
+Description: Simple utility to track changes to a text file
+ Usage: trackf <filename>
