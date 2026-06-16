@@ -5,7 +5,7 @@
 #
 # Usage: trackf <text-file>
 
-# Function to compare file contents, display changes with timestamps and colorization
+# Function to compare file contents, display changes with timestamps and colorisation
 function compare_file() {
   local file="$1"  # Assign filename to a local variable
 
@@ -76,7 +76,7 @@ if [ ! -r "$file" ]; then
   exit 1
 fi
 
-# Initialize the previous content with the initial file contents
+# Initialise the previous content with the initial file contents
 previous_content="$(cat "$file")"
 
 # Initial message
