@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Utility to monitor changes to text files
-# (c) A.R.King 2024
+# (c) A.R.King 2024-2026
 #
 # Usage: trackf <text-file>
 
@@ -12,7 +12,7 @@ function compare_file() {
   # Get current timestamp
   timestamp=$(date +"%Y-%m-%d %H:%M:%S")
 
-    # Read entire file into a process substitution
+    # Read entire file in to a variable using comand substitution
     file_content="$(cat "${file}")" || {
       echo "${PROGNAME}: Failed to read file '$file': $?"
       exit 1
