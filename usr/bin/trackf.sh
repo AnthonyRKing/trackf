@@ -13,7 +13,7 @@ function compare_file() {
   timestamp=$(date +"%Y-%m-%d %H:%M:%S")
 
     # Read entire file in to a variable using comand substitution
-    file_content="$(cat "${file}")" || {
+    file_content="$(cat -- "${file}")" || {
       echo "${PROGNAME}: Failed to read file '$file': $?"
       exit 1
     }
